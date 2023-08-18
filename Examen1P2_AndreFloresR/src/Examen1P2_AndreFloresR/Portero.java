@@ -4,9 +4,11 @@ import java.util.Random;
 
 public class Portero extends jugador {
 
-    public Portero(String nombre, int edad, String nacionalidad, String pieHabil, int rating, Equipo equipo, int agarre, int lanzamiento, int fisico, int ritmo, int entrada, int vision, int passing, int regate, int disparo) {
-        super(nombre, edad, nacionalidad, pieHabil, rating, equipo, agarre, lanzamiento, fisico, ritmo, entrada, vision, passing, regate, disparo);
+    public Portero(String nombre, int edad, String nacionalidad, String pieHabil) {
+        super(nombre, edad, nacionalidad, pieHabil);
     }
+
+    
 
     @Override
     public void ratingtiene() {

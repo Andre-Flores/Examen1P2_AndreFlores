@@ -18,22 +18,12 @@ public abstract class jugador {
     private int regate;
     private int disparo;
 
-    public jugador(String nombre, int edad, String nacionalidad, String pieHabil, int rating, Equipo equipo, int agarre, int lanzamiento, int fisico, int ritmo, int entrada, int vision, int passing, int regate, int disparo) {
+    public jugador(String nombre, int edad, String nacionalidad, String pieHabil) {
         this.nombre = nombre;
         this.edad = edad;
         this.nacionalidad = nacionalidad;
         this.pieHabil = pieHabil;
-        this.rating = rating;
-        this.equipo = equipo;
-        this.agarre = agarre;
-        this.lanzamiento = lanzamiento;
-        this.fisico = fisico;
-        this.ritmo = ritmo;
-        this.entrada = entrada;
-        this.vision = vision;
-        this.passing = passing;
-        this.regate = regate;
-        this.disparo = disparo;
+       
     }
 
     public String getNombre() {
