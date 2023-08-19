@@ -1,9 +1,9 @@
-
 package Examen1P2_AndreFloresR;
 
 import java.util.ArrayList;
 
 public class Equipo {
+
     private String nombreequipo;
     private String pais;
     private int Rating;
@@ -52,5 +52,5 @@ public class Equipo {
     public String toString() {
         return "Equipo{" + "nombreequipo=" + nombreequipo + ", pais=" + pais + ", Rating=" + Rating + ", plantilla=" + plantilla + '}';
     }
-    
+
 }

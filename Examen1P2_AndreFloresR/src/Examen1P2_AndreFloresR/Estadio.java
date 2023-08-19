@@ -1,7 +1,7 @@
-
 package Examen1P2_AndreFloresR;
 
 public class Estadio {
+
     private String nombre;
     private String ciudad;
     private int capacidad;
@@ -50,5 +50,5 @@ public class Estadio {
     public String toString() {
         return "Estadio{" + "nombre=" + nombre + ", ciudad=" + ciudad + ", capacidad=" + capacidad + ", equipo=" + equipo + '}';
     }
-    
+
 }

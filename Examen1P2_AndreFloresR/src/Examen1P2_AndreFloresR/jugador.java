@@ -23,7 +23,7 @@ public abstract class jugador {
         this.edad = edad;
         this.nacionalidad = nacionalidad;
         this.pieHabil = pieHabil;
-       
+
     }
 
     public String getNombre() {
@@ -145,9 +145,14 @@ public abstract class jugador {
     public void setDisparo(int disparo) {
         this.disparo = disparo;
     }
-    
+
+    @Override
+    public String toString() {
+        return "nombre: " + nombre + ", edad: " + edad + ", nacionalidad: " + nacionalidad + ", pieHabil: " + pieHabil + ", rating: " + rating;
+    }
+
     public abstract void ratingtiene();
-    
+
     public abstract void ratingnotiene();
 
 }
